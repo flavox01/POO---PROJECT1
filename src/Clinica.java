@@ -29,7 +29,7 @@ public class Clinica {
     public void agendarConsulta() {
         Scanner sc = new Scanner(System.in); // Importação do Scanner
 
-        System.out.println("Digite o nome do paciente:");
+        System.out.println("Digite o nome do paciente  :");
         String nomePaciente = sc.nextLine();
 
         System.out.println("Digite o CPF do paciente (formato: xxx.xxx.xxx-xx):");
